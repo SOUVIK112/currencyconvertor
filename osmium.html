@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osmium Rate Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Osmium Rate Checker (Os)</h1>
+
+        <label for="osmiumCountrySelect">Select Country:</label>
+        <select id="osmiumCountrySelect"></select>
+
+        <label for="osmiumYearSelect">Select Year:</label>
+        <select id="osmiumYearSelect"></select>
+
+        <button onclick="displayOsmiumRate()">Check Rate</button>
+        <p id="osmiumResult"><strong>💰 Select currency and year to see Osmium price.</strong></p>
+
+
+        <div id="osmiumResult"></div>
+    </div>
+
+    <script src="osmium.js"></script>
+</body>
+</html>

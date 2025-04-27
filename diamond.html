@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Rate Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <h2>💎 Diamond Rate Checker</h2>
+
+        <!-- Country Selection -->
+        <label for="diamondCountrySelect">Select Country:</label>
+        <select id="diamondCountrySelect"></select>
+        
+        <!-- Year Selection -->
+        <label for="diamondYearSelect">Select Year:</label>
+        <select id="diamondYearSelect"></select>
+
+        <!-- Button to Check Rate -->
+        <button onclick="displayDiamondRate()">Check Rate</button>
+        
+        <!-- Result -->
+        <p id="diamondResult">Select a country and year, then click "Check Rate".</p>
+    </div>
+
+    <script src="diamond.js"></script>
+</body>
+</html>

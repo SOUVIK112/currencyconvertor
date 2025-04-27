@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🥇 Gold Price Checker</h1>
+
+        <label for="goldCountrySelect">Select Currency:</label>
+        <select id="goldCountrySelect"></select>
+
+        <label for="goldYearSelect">Select Year:</label>
+        <select id="goldYearSelect"></select>
+
+        <button onclick="displayGoldRate()">Check Price</button>
+
+        <p id="goldResult"><strong>💰 Select currency and year to see gold price.</strong></p>
+
+    <script src="gold.js"></script>
+</body>
+</html>

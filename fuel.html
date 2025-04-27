@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⛽ Fuel Price Checker</h1>
+
+        <label for="region">Select State/UT:</label>
+        <select id="region"></select>
+
+        <label for="year">Select Year:</label>
+        <select id="year"></select>
+
+        <button onclick="getFuelPrice()">Check Rate</button>
+
+        <p id="result">📌 Select a state and year to see fuel price details.</p>
+    </div>
+
+    <script src="fuel.js"></script>
+</body>
+</html>

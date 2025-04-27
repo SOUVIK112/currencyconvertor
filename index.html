@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>💱 Currency Converter</h2>
+
+        <input type="number" id="amount" placeholder="Enter amount" min="0">
+
+        <div class="currency-box">
+            <select id="fromCurrency"></select>
+        </div>
+
+        <p class="to-text"><b>To</b></p>
+
+        <div class="currency-box">
+            <select id="toCurrency"></select>
+        </div>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <p id="result">Converted Amount: --</p>
+
+        <div class="links">
+            <p><a href="jewellery.html" class="jewellery-link">Check Precious Metals Rates</a></p>
+            <p><a href="fuel.html" class="rate-link">🇮🇳 Check Fuel Rates in India</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

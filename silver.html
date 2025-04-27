@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🥈 Silver Price Checker</h1>
+
+        <label for="silverCountrySelect">Select Country:</label>
+        <select id="silverCountrySelect"></select>
+
+        <label for="silverYearSelect">Select Year:</label>
+        <select id="silverYearSelect"></select>
+
+        <button onclick="displaySilverRate()">Check Price</button>
+
+        <p id="silverResult"><strong>💰 Select country and year to see silver price.</strong></p>
+    </div>
+
+    <script src="silver.js"></script>
+</body>
+</html>
